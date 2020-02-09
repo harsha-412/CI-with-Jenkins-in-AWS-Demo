@@ -50,4 +50,10 @@
             </plugin>
         </plugins>
     </build>
-</project>
+    <distributionManagement>
+       <repository>
+           <id>deployment</id>
+           <url>http://34.89.56.189:8081/repository/Harsha-NexusRepo/</url>
+       </repository>
+    </distributionManagement>
+ </project>
